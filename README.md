@@ -10,6 +10,7 @@ equation int scale = gameTime/realWorldTime; Note that the scale must be an int,
 anything after the decimal will be dropped. A scale of 1 means that the game time will
 equal the real world time.*/
 Time time = Time.getTime(20);
+System.out.println("Game Time: " + time.getHour() + ":" + time.getMin());
 Color tint = time.getTint();
 
 /*set the tint of your sprites. This process will vary between frameworks.*/

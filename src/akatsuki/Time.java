@@ -61,9 +61,8 @@ public class Time {
     }
 
     /**
-     * Calculates the tint to be used for 2d rendering based on the time, offset by the given value.
+     * Calculates the tint to be used for 2d rendering based on the time
      * NOTE: Assumes a 24hr day.
-     * This value will need to be tweaked in order to get an acceptable tint for a game time.
      * @return the tent to be used for 2d rendering.
      */
     public Color getTint() {

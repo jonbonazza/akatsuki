@@ -1,7 +1,8 @@
 package akatsuki;
 
-import com.badlogic.gdx.graphics.Color;
 
+
+import java.awt.*;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -56,6 +57,7 @@ public class Time {
         /*Credit goes to Ted Larue for this algorithm. Thanks Ted!*/
         double z = Math.cos((hour-14) * Math.PI / 12);
         float b = (float) (0.3f + 0.7f * (z + 1.0) / 2.0);
+
         return new Color(b, b, b, 1.0f);
     }
 }
